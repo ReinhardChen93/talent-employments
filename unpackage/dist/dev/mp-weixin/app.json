@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/market/market",
+    "pages/messages/messages",
+    "pages/my/my",
+    "pages/login/login"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#356899",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/market/market",
+        "iconPath": "static/tabbar/market.png",
+        "selectedIconPath": "static/tabbar/market_active.png",
+        "text": "人才广场"
+      },
+      {
+        "pagePath": "pages/messages/messages",
+        "iconPath": "static/tabbar/message.png",
+        "selectedIconPath": "static/tabbar/message_active.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/tabbar/my.png",
+        "selectedIconPath": "static/tabbar/my_active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

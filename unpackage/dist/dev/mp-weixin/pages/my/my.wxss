@@ -1,0 +1,32 @@
+
+.my-container {
+  background-color: #f7f8fa;
+  min-height: 100vh;
+}
+.user-info-card {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  margin: 15px;
+  border-radius: 8px;
+}
+.info-text {
+  flex: 1;
+  margin-left: 15px;
+}
+.nickname {
+  font-size: 18px;
+  font-weight: bold;
+}
+.phone {
+  font-size: 14px;
+  color: #999;
+  margin-top: 5px;
+}
+.arrow-icon {
+  color: #999;
+}
+.logout-btn-wrapper {
+    margin: 30px 15px;
+}
