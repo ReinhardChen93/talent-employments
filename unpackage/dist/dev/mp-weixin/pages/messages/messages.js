@@ -36,7 +36,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
       return {
         a: msg.avatar,
         b: msg.id,
-        c: "e1510560-1-" + i0 + ",e1510560-0",
+        c: "595e9b74-1-" + i0 + ",595e9b74-0",
         d: common_vendor.p({
           title: msg.from,
           rightText: msg.time,

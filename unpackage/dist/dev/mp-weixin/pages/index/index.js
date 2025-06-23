@@ -44,7 +44,9 @@ const _sfc_main = {
   },
   methods: {
     goToMarket() {
-      common_vendor.index.navigateTo({ url: "/pages/market/market" });
+      common_vendor.index.navigateTo({
+        url: "/pages/market/market"
+      });
     }
   }
 };

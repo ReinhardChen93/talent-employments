@@ -57,12 +57,12 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
         a: common_vendor.f(p.skills, (skill, k1, i1) => {
           return {
             a: skill,
-            b: "5c491890-2-" + i0 + "-" + i1 + "," + ("5c491890-1-" + i0)
+            b: "22bce8b4-2-" + i0 + "-" + i1 + "," + ("22bce8b4-1-" + i0)
           };
         }),
         b: p.id,
         c: common_vendor.o(($event) => $options.viewTalentDetail(p.id), p.id),
-        d: "5c491890-1-" + i0,
+        d: "22bce8b4-1-" + i0,
         e: common_vendor.p({
           title: p.name,
           ["sub-title"]: p.description,
